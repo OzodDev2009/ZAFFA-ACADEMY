@@ -1401,6 +1401,33 @@ main {
         }
     }
 
+    .download {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 90px;
+
+        @media (max-width:630px) {
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        a {
+            width: 300px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            background: green;
+            text-align: left;
+        }
+    }
+
     .user {
         margin-top: 381px;
 
