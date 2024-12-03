@@ -23,7 +23,7 @@ btn.addEventListener('click', function () {
     if (login.value == 'ZAFFA') {
         if (password.value == 'Zafarbek') {
             alert('ZAFFA ACADEMY Добро пожаловать');
-            window.location.href = "./html/index.html"
+            window.location.href = "./html/zaffa.html"
         } else {
             alert('Ошибка: Неверный пароль');
         }
