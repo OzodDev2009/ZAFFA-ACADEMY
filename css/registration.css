@@ -1,0 +1,74 @@
+@import url(../css/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Calibri';
+    background: -webkit-linear-gradient(left, #06335e, #69161d);
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+}
+
+.login__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login__img{
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.login__block input{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    padding: 10px;
+}
+
+.login__block i{
+    color: white;
+    margin-left: 10px;
+}
+
+.login__block input::placeholder{
+    color: black;
+}
+
+.login__block:nth-last-of-type(1){
+    margin-left: 33px;
+}
+
+.login__info button{
+    border: none;
+    width: 200px;
+    height: 30px;
+    background: rgb(0, 162, 255);
+    color: white;
+    border-radius: 5px;
+}
